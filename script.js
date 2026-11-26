@@ -207,3 +207,20 @@ svTrack('language_switch',{target_language:b.dataset.lang})
 },{capture:true}));
 
 })();
+
+;(()=>{
+const ru=location.pathname.startsWith('/ru');
+const footer=document.querySelector('footer');
+if(!footer)return;
+
+const privacy=document.createElement('a');
+privacy.href=ru?'/privacy/?lang=ru':'/privacy/';
+privacy.textContent=ru
+?'Политика конфиденциальности'
+:'Privacy Policy';
+
+privacy.style.cssText=
+'display:inline-block;color:inherit;font-size:11px;margin:10px 0;';
+
+footer.appendChild(privacy);
+})();
