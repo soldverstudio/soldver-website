@@ -224,3 +224,56 @@ privacy.style.cssText=
 
 footer.appendChild(privacy);
 })();
+;(()=>{
+const footer=document.querySelector('footer');
+if(!footer)return;
+if(document.getElementById('sv-instagram'))return;
+
+const ru=location.pathname.startsWith('/ru');
+
+const social=document.createElement('div');
+social.id='sv-instagram';
+social.style.cssText='margin:18px 0;';
+
+const link=document.createElement('a');
+
+link.href='https://www.instagram.com/soldver.official/';
+link.target='_blank';
+link.rel='noopener noreferrer';
+link.textContent='INSTAGRAM* ↗';
+
+link.style.cssText=`
+display:inline-block;
+color:inherit;
+font-size:11px;
+letter-spacing:2px;
+text-decoration:none;
+opacity:0.8;
+transition:opacity 0.3s ease;
+`;
+
+link.addEventListener('mouseenter',()=>{
+link.style.opacity='1';
+});
+
+link.addEventListener('mouseleave',()=>{
+link.style.opacity='0.8';
+});
+
+const note=document.createElement('p');
+
+note.style.cssText=`
+font-size:9px;
+opacity:0.45;
+line-height:1.5;
+margin-top:8px;
+`;
+
+note.textContent=ru
+?'*Instagram принадлежит Meta, деятельность которой признана экстремистской и запрещена в РФ.'
+:'*Instagram is owned by Meta, whose activities are designated extremist and prohibited in Russia.';
+
+social.appendChild(link);
+social.appendChild(note);
+footer.appendChild(social);
+})();
