@@ -1,2 +1,56 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://soldver.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/"/><xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/"/></url><url><loc>https://soldver.com/ru/</loc><xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/"/><xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/"/></url><url><loc>https://soldver.com/origins/</loc><xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/origins/"/><xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/origins/"/></url><url><loc>https://soldver.com/ru/origins/</loc><xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/origins/"/><xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/origins/"/></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://soldver.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soldver.com/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soldver.com/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/origins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/origins/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/origins/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/ru/origins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/origins/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/origins/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/press/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/ru/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/press/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/archive/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/archive/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/archive/"/>
+  </url>
+
+  <url>
+    <loc>https://soldver.com/ru/archive/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soldver.com/archive/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://soldver.com/ru/archive/"/>
+  </url>
+
+</urlset>
